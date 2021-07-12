@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# build folder
+/build/
+
+# JetBrains
+/.idea/
+/cmake-build-debug/
+
+# Eclipse
+.settings
+.cproject
+.project
