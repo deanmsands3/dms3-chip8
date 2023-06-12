@@ -37,6 +37,7 @@
 # JetBrains
 /.idea/
 /cmake-build-debug/
+/cmake-build-debug-*/
 
 # Eclipse
 .settings

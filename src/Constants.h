@@ -15,7 +15,7 @@ const unsigned DISPLAY_HIEGHT(32);
 const unsigned DISPLAY_WIDTH(128);
 const unsigned DISPLAY_HIEGHT(64);
 #endif // SUPER_CHIP
-
+const unsigned RAM_SIZE(4096);
 const unsigned DISPLAY_SIZE(DISPLAY_HIEGHT*DISPLAY_WIDTH);
 
 #endif //DMS3_CHIP8_CONSTANTS_H
