@@ -1,6 +1,13 @@
-//
-// Created by deansands on 7/12/21.
-//
+/**************************************************************
+ * Id: $Id
+ * Source: $Source
+ * Author: $Author
+ * File: $File
+ * Revision: $Revision
+ * Purpose: Header for Constants
+ * Created by deansands on 7/12/21.
+ **************************************************************/
+
 #pragma once
 #ifndef DMS3_CHIP8_CONSTANTS_H
 #define DMS3_CHIP8_CONSTANTS_H
