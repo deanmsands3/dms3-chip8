@@ -12,13 +12,15 @@
 #include "CPU.h"
 #pragma endregion Includes
 
+namespace DMS3 {
 #pragma region Public Methods
 
-DMS3::CPU::CPU():m_ram(RAM_SIZE), m_display_buffer(0) {
+    CPU::CPU() : m_ram(RAM_SIZE), m_display_buffer(0) {
 
-}
+    }
 
-DMS3::CPU::~CPU() {}
+    CPU::~CPU() {}
 
 #pragma endregion Public Methods
 
+}

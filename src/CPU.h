@@ -14,13 +14,17 @@
 #pragma region Includes
 #include "Types.h"
 #include "Constants.h"
+#include "Timer.h"
 #include <vector>
 #include <bitset>
+#include <memory>
 #pragma endregion Includes
 
 namespace DMS3{
 #pragma region CPU Class Declaration
 class CPU {
+    std::shared_ptr<Timer> m_delay_timer;
+    std::shared_ptr<Timer> m_beep_timer;
     std::vector<uint8_t> m_ram;
     std::bitset<DISPLAY_SIZE> m_display_buffer;
 public:
