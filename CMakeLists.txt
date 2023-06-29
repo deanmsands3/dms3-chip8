@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 #Enable cmake_modules
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 
-include(GNUInstallDirs)
+#include(GNUInstallDirs)
 include(CommonCompilers)
 include(__version__)
 
