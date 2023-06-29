@@ -15,7 +15,7 @@
 #pragma endregion Includes
 
 #pragma region Public Methods
-namespace DMS3 {
+namespace DMS3::Chip8 {
     Timer::Timer(float frequency, const std::function<void()> &callback): _callback(callback){
         setFrequency(frequency);
 

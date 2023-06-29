@@ -18,7 +18,7 @@
 #include <mutex>
 #pragma endregion Includes
 
-namespace DMS3{
+namespace DMS3::Chip8{
     class Timer {
     private:
         std::chrono::microseconds _timeout;

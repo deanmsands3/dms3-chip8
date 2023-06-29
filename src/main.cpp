@@ -12,6 +12,6 @@
 
 
 int main(int argc, char *argv[]){
-	auto cpu = new DMS3::CPU();
+	auto cpu = new DMS3::Chip8::CPU();
 	return 0;
 }
