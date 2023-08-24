@@ -15,7 +15,7 @@
 #include "Types.h"
 #include "Constants.h"
 #include "Timer.h"
-#include "Opcode.h"
+#include "Opcodes/Opcode.h"
 #include <vector>
 #include <array>
 #include <bitset>
@@ -41,8 +41,8 @@ namespace DMS3::Chip8{
         void _loop();
         void _loop_internal();
         uint16_t _fetch();
-        Opcode _decode(uint16_t raw_opcode);
-        void _execute(Opcode opcode);
+        Opcodes::Opcode _decode(uint16_t raw_opcode);
+        void _execute(Opcodes::Opcode opcode);
     public:
         CPU();
         virtual ~CPU();

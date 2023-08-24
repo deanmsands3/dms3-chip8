@@ -9,9 +9,13 @@
  **************************************************************/
 
 #include "Opcode.h"
-namespace DMS3::Chip8{
-    Opcode::Opcode(uint16_t raw_opcode){
+namespace DMS3::Chip8::Opcodes{
+    Opcode::Opcode(uint16_t raw_opcode):_raw_opcode(raw_opcode){
     }
-    Opcode::~Opcode()=default;
 
+    uint16_t Opcode::get_raw_opcode() const {
+        return _raw_opcode;
+    }
+
+    Opcode::~Opcode()=default;
 }

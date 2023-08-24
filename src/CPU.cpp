@@ -11,7 +11,7 @@
 #pragma region Includes
 #include "CPU.h"
 #include "Fonts.h"
-#include "Opcode.h"
+#include "Opcodes/Opcode.h"
 #include <algorithm>
 #pragma endregion Includes
 
@@ -118,7 +118,8 @@ namespace DMS3::Chip8 {
     }
 
     Opcode CPU::_decode(uint16_t raw_opcode) {
-        return nullptr;
+        Opcode def;
+        return def;
     }
 
     void CPU::_execute(Opcode opcode) {
